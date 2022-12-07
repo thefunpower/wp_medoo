@@ -14,6 +14,16 @@ its a very sample database library.
 
 more infomation https://medoo.in/
 
+## install 
+~~~
+composer require thefunpower/wp_medoo
+~~~
+
+In your plugin file add code
+~~~
+include __DIR__.'/vendor/autoload.php';
+~~~
+
 ### get all data
 ~~~
 $res = db_get("user",'*',db_raw("WHERE  DATE_FORMAT(<created_at>,'%Y-%m') = '".$today."'"));
