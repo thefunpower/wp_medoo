@@ -1,0 +1,16 @@
+{
+    "name": "thefunpower/wp_medoo",
+    "type": "library",
+    "description": "medoo db for wordpress",
+    "keywords": ["php"],
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "ken.sun",
+            "email": "kungfutime@foxmail.com" 
+        }
+    ],
+    "require": {
+        "thefunpower/db_medoo": "v1.0.2.1207"
+    }
+}
