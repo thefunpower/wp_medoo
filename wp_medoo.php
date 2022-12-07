@@ -20,10 +20,5 @@ $medoo_db_config['db_port'] = 3306;
 /**
 * 启动数据库连接
 */
-include __DIR__.'/vendor/thefunpower/db_medoo/inc/db/boot.php';
-
-/**
-* 数据库操作方法可用
-* print_r(db_get('wp_users','*',[]));
-*/
-
+include __DIR__.'/../db_medoo/inc/db/boot.php';
+ 

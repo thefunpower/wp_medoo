@@ -12,5 +12,8 @@
     ],
     "require": {
         "thefunpower/db_medoo": "v1.0.2.1207"
+    },
+    "autoload": { 
+        "files": ["./wp_medoo.php"] 
     }
 }
