@@ -1,13 +1,3 @@
-/**
-Plugin Name: wp_medoo
-Description: it's a function for medoo.com database library
-Version: 1.0.2
-Requires at least: 6.1
-Requires PHP: 7.4
-Author: Ken 
-License: BSD-3-Clause
-*/
-
 ## database option function 
 
 its a very sample database library.
@@ -69,4 +59,4 @@ $res = db_get("user",'*', $where);
 
 
 
-License: GPLv2 or later
+License: MIT
