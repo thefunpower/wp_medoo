@@ -1,7 +1,7 @@
 {
     "name": "thefunpower/wp_medoo",
     "type": "library",
-    "description": "medoo db for wordpress",
+    "description": "wordpress中使用db_medoo",
     "keywords": ["php"],
     "license": "MIT",
     "authors": [
