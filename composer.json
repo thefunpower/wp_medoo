@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "thefunpower/db_medoo": "^1.0"
+        "thefunpower/db_medoo": "^2"
     },
     "autoload": { 
         "files": ["./wp_medoo.php"] 
