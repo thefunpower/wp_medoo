@@ -57,6 +57,4 @@ $where = db_between_month('created_at',$date1,$date2);
 $res = db_get("user",'*', $where);
 ~~~
 
-
-
-License: MIT
+ 
